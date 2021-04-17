@@ -1,0 +1,187 @@
+/*  Search Section  */
+.search {
+  width: 50%;
+  min-height: 100px;
+  background: #95badf;
+  position: left;
+}
+
+.search #search {
+  display: block;
+  width: 90.90909090909091%;
+  float: left;
+  border: 0;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  background: #bfd9f2;
+  color: #ffffff;
+  font-family: "lato-regular", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+
+.search #search::-webkit-input-placeholder {
+  color: #95badf;
+}
+
+.search #search:-moz-placeholder {
+  color: #95badf;
+}
+
+.search #search::-moz-placeholder {
+  color: #95badf;
+}
+
+.search #search:-ms-input-placeholder {
+  color: #95badf;
+}
+
+.search #submit_search {
+  display: none;
+}
+
+.search .advanced_search_icon {
+  display: block;
+  width: 26px;
+  height: 26px;
+  float: right;
+  background: url("../img/advanced_search_inactive.png") no-repeat;
+  margin-top: 37px;
+
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.search .advanced_search_icon:hover {
+  background: url("../img/advanced_search_hover.png") no-repeat;
+}
+
+.search .advanced_search_icon.active {
+  background: url("../img/advanced_search_active.png") no-repeat;
+}
+
+.search .advanced_search {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  background: #95badf;
+  border-top: 1px solid #aac8e4;
+  border-bottom: 1px solid #aac8e4;
+  padding-bottom: 40px;
+}
+
+.search .advanced_search .arrow {
+  display: block;
+  width: 14px;
+  height: 9px;
+  background: url("../img/search_arrow.png") no-repeat;
+  position: absolute;
+  top: -8px;
+  right: 6px;
+}
+
+.search .advanced_search #check_in_date,
+.search .advanced_search #check_out_date,
+.search .advanced_search #min_price,
+.search .advanced_search #max_price {
+  display: block;
+  width: 509px;
+  height: 100px;
+  border: 0;
+  margin: 0;
+  padding: 0 20px;
+  outline: none;
+  background: #fff;
+}
+
+.search .advanced_search #check_in_date,
+.search .advanced_search #check_out_date {
+  background: url("../img/calendar_icon.png") no-repeat;
+  background-position: 484px 50%;
+  padding: 0 100px 0 20px;
+  width: 429px;
+}
+
+.search .advanced_search .float {
+  float: left;
+}
+
+.search .advanced_search .search_fields {
+  overflow: hidden;
+  border-bottom: 1px solid #aac8e4;
+  background-color: #fff;
+}
+
+.search .advanced_search .field_sep {
+  display: inline-block;
+  width: 1px;
+  height: 60px;
+  border: 0;
+  background: #aac8e4;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.search .advanced_search #keywords {
+  display: block;
+  width: 1060px;
+  height: 100px;
+  border: 0;
+  margin: 0;
+  padding: 0 20px;
+  outline: none;
+  background: #cbe0f4;
+}
+
+.search .advanced_search #check_in_date,
+.search .advanced_search #check_out_date,
+.search .advanced_search #min_price,
+.search .advanced_search #max_price,
+.search .advanced_search #keywords {
+  color: #95badf;
+  font-family: "lato-regular", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 22px;
+  background-color: #fff;
+}
+
+.search .advanced_search #check_in_date::-webkit-input-placeholder,
+.search .advanced_search #check_out_date::-webkit-input-placeholder,
+.search .advanced_search #min_price::-webkit-input-placeholder,
+.search .advanced_search #max_price::-webkit-input-placeholder,
+.search .advanced_search #keywords::-webkit-input-placeholder {
+  color: #95badf;
+}
+
+.search .advanced_search #check_in_date:-moz-placeholder,
+.search .advanced_search #check_out_date:-moz-placeholder,
+.search .advanced_search #min_price:-moz-placeholder,
+.search .advanced_search #max_price:-moz-placeholder,
+.search .advanced_search #keywords:-moz-placeholder {
+  color: #95badf;
+}
+
+.search .advanced_search #check_in_date::-moz-placeholder,
+.search .advanced_search #check_out_date::-moz-placeholder,
+.search .advanced_search #min_price::-moz-placeholder,
+.search .advanced_search #max_price::-moz-placeholder,
+.search .advanced_search #keywords::-moz-placeholder {
+  color: #95badf;
+}
+
+.search .advanced_search #check_in_date:-ms-input-placeholder,
+.search .advanced_search #check_out_date:-ms-input-placeholder,
+.search .advanced_search #min_price:-ms-input-placeholder,
+.search .advanced_search #max_price:-ms-input-placeholder,
+.search .advanced_search #keywords:-ms-input-placeholder {
+  color: #95badf;
+}
+
